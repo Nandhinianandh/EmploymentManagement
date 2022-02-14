@@ -15,7 +15,7 @@ public class MainController {
 	/*
 	 * @GetMapping("/") public String home() { return "index"; }
 	 */
-	@PostMapping("/employeelogin")
+	<--@PostMapping("/employeelogin")
 	public String employeelogin() {
 		return "employeelogin";
 	}
@@ -24,5 +24,5 @@ public class MainController {
 	public String details()
 	{
 		return "details";
-	}
+	}-->
 }
